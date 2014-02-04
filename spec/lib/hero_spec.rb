@@ -2,7 +2,6 @@ require 'spec_helper'
 require_relative '../../lib/hero'
 
 describe Hero do
-	let(:dicepool) { double("dicepool") }
 
 	describe "default attributes" do
 		let(:hero) {Hero.new }

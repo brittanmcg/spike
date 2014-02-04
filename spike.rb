@@ -8,9 +8,9 @@ class Hero
 		@fled = false
 	end
 
-	def fled?
-		@fled
-	end
+	# def fled?
+	# 	@fled
+	# end
 
 	def flee(monster)
 		dice = []
